@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMaster", "IMaster\IMaster.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMaster.Tests", "IMaster.Tests\IMaster.Tests.csproj", "{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMaster.DAL", "IMaster.DAL\IMaster.DAL.csproj", "{0C48F216-D84C-4BBD-9997-D42AFBB0EBF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMaster.BLL", "IMaster.BLL\IMaster.BLL.csproj", "{2E6AADDD-0574-46DC-B8AA-0FEB7701BAA5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C48F216-D84C-4BBD-9997-D42AFBB0EBF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C48F216-D84C-4BBD-9997-D42AFBB0EBF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C48F216-D84C-4BBD-9997-D42AFBB0EBF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C48F216-D84C-4BBD-9997-D42AFBB0EBF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E6AADDD-0574-46DC-B8AA-0FEB7701BAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E6AADDD-0574-46DC-B8AA-0FEB7701BAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E6AADDD-0574-46DC-B8AA-0FEB7701BAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E6AADDD-0574-46DC-B8AA-0FEB7701BAA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
