@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMaster", "IMaster\IMaster.csproj", "{EAB9B350-A353-4487-8106-97C7074DC00F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMaster.Tests", "IMaster.Tests\IMaster.Tests.csproj", "{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAB9B350-A353-4487-8106-97C7074DC00F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAB9B350-A353-4487-8106-97C7074DC00F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAB9B350-A353-4487-8106-97C7074DC00F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAB9B350-A353-4487-8106-97C7074DC00F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30FDD900-AC70-4754-9DDA-90D7EE1FFAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD1A9026-D723-4494-B4C6-244FDC0A4DDD}
+	EndGlobalSection
+EndGlobal
