@@ -60,7 +60,16 @@
     <Compile Include="Enitities\ApplicationUser.cs" />
     <Compile Include="Enitities\City.cs" />
     <Compile Include="Enitities\CityLang.cs" />
-    <Compile Include="Enitities\UserProfile.cs" />
+    <Compile Include="Enitities\CustomerProfile.cs" />
+    <Compile Include="Enitities\ExecutorProfile.cs" />
+    <Compile Include="Enitities\ExecutorService.cs" />
+    <Compile Include="Enitities\News.cs" />
+    <Compile Include="Enitities\NewsLang.cs" />
+    <Compile Include="Enitities\Payment.cs" />
+    <Compile Include="Enitities\Service.cs" />
+    <Compile Include="Enitities\ServiceLang.cs" />
+    <Compile Include="Enitities\UnitMeasurement.cs" />
+    <Compile Include="Enitities\UnitMeasurementLang.cs" />
     <Compile Include="Enums\ExecutorType.cs" />
     <Compile Include="Enums\Gender.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

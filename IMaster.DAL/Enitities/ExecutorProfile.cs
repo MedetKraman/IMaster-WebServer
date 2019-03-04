@@ -11,6 +11,11 @@ namespace IMaster.DAL.Enitities
 {
     public class ExecutorProfile
     {
+        public ExecutorProfile()
+        {
+            ExecutorServices = new HashSet<ExecutorService>();
+        }
+
         [Key]
         [ForeignKey("ApplicationUser")]
         public string Id { get; set; }
@@ -25,5 +30,19 @@ namespace IMaster.DAL.Enitities
         public virtual City City { get; set; }
 
         public ExecutorType ExecutorType { get; set; }
+        public string AvatarUrl { get; set; }
+        public double Rating { get; set; }
+        public int ClosedOrderCount { get; set; }
+        public DateTime RegistrationDateTime { get; set; }
+        public string Status { get; set; }
+        public bool DocumentsVerified { get; set; }
+        public string CategoriesAndSpecializations { get; set; }
+        public int Age { get; set; }
+        public string PhoneNumber { get; set; }
+        public string Reviews { get; set; }
+        public string ServicesPrices { get; set; }
+        public string YouTubeVideoUrl { get; set; }
+
+        public ICollection<ExecutorService> ExecutorServices { get; set; }
     }
 }

@@ -12,11 +12,13 @@ namespace IMaster.DAL.Enitities
         {
             CityLangs = new HashSet<CityLang>();
             UserProfiles = new HashSet<ExecutorProfile>();
+            CustomerProfiles = new HashSet<CustomerProfile>();
         }
 
         public int Id { get; set; }
 
         public ICollection<CityLang> CityLangs { get; set; }
         public ICollection<ExecutorProfile> UserProfiles { get; set; }
+        public ICollection<CustomerProfile> CustomerProfiles { get; set; }
     }
 }
